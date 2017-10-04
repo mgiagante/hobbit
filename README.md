@@ -145,7 +145,7 @@ require 'hobbit'
 class App < Hobbit::Base
   # matches both /hi/hobbit and /hi/patricio
   get '/hi/:name' do
-    # request.params is filled with the route paramters, like this:
+    # request.params is filled with the route parameters, like this:
     "Hello #{request.params[:name]}"
   end
 end
