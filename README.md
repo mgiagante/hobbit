@@ -132,7 +132,7 @@ And any other method defined in your application.
 
 **Note**: Since most browsers don't support methods other than **GET** and
 **POST** you must use the `Rack::MethodOverride` middleware. (See
-[Rack::MethodOverride](https://github.com/rack/rack/blob/master/lib/rack/methodoverride.rb)).
+[Rack::MethodOverride](https://github.com/rack/rack/blob/master/lib/rack/method_override.rb)).
 
 #### Routes with parameters
 
